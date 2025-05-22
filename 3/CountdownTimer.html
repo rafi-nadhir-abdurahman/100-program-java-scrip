@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+</head>
+<body>
+  <h1>Countdown Timer</h1>
+
+  <label>Menit: <input type="number" id="minutes" value="0" min="0"></label><br>
+  <label>Detik: <input type="number" id="seconds" value="10" min="0" max="59"></label><br><br>
+
+  <button onclick="startCountdown()">Start</button>
+  <button onclick="stopCountdown()">Stop</button>
+  <button onclick="resetCountdown()">Reset</button>
+
+  <h2 id="timerDisplay">00:00</h2>
+
+  <script src="script.js"></script>
+</body>
+</html>

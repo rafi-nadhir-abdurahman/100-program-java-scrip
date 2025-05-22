@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemutar Audio Sederhana</title>
+</head>
+<body>
+  <h1>Pemutar Audio Sederhana</h1>
+
+  <audio id="audioPlayer" controls>
+    <source src="" type="audio/mp3">
+    Browser Anda tidak mendukung elemen audio.
+  </audio>
+
+  <div>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="stopAudio()">Stop</button>
+    <button onclick="increaseVolume()">Volume Up</button>
+    <button onclick="decreaseVolume()">Volume Down</button>
+  </div>
+
+  <script src="audioPlayer.js"></script>
+</body>
+</html>
