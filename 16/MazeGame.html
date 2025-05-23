@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maze Game Sederhana Tanpa CSS</title>
+</head>
+<body>
+  <h1>Maze Game</h1>
+  <p>Gunakan tombol panah untuk bergerak. Capai kotak hijau!</p>
+
+  <div id="maze" style="
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-template-rows: repeat(7, 40px);
+    gap: 2px;
+    margin-top: 10px;
+  ">
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div id="player" style="background:#2196F3; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div style="background:#eee; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+    <div id="end" style="background:#4CAF50; border:1px solid #ccc;"></div>
+    <div style="background:#333; border:1px solid #ccc;"></div>
+  </div>
+
+  <p id="message"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

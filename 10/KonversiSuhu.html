@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konversi Suhu</title>
+</head>
+<body>
+  <h1>Konversi Suhu</h1>
+
+  <label for="celsius">Celsius (°C):</label>
+  <input type="number" id="celsius" oninput="convertToFahrenheit()" />
+
+  <p>Hasil: <span id="fahrenheit">0</span> °F</p>
+
+  <hr />
+
+  <label for="fahrenheitInput">Fahrenheit (°F):</label>
+  <input type="number" id="fahrenheitInput" oninput="convertToCelsius()" />
+
+  <p>Hasil: <span id="celsiusResult">0</span> °C</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
