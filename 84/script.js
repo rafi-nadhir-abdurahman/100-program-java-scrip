@@ -1,0 +1,1 @@
+function akar(){out.innerText=Math.sqrt(+a.value)}
